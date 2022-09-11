@@ -1,70 +1,67 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-    <title>使用CSS制作个人页面</title>
-  <style type="text/css">
-   body {background-image:url(图片/背景.png);
-        background-attachment:fixed;
-        font-size:100%;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CXB</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image:url('https://c.wallhere.com/photos/83/46/Lamborghini_Lamborghini_Aventador_car_vehicle_white_cars_reflection-2099151.jpg!d');
+            	
+            background-size: cover;
         }
-    p {text-align:right;
-       }
-   .biaoti {text-align:right;
-            color : #D35C0F;
-            font-size : 2.5em;
-            font-weight : bold;
-            line-height : 1.4em;
-            font-family : Cooper Std Black;
-           }
-    #date {text-align:right;
-           color : #999999;
-           font-size : .8em;
-           font-weight : bold;
-           font-family : Geneva, Arial, Helvetica, sans-serif;
-           }
-    #content {color : #3399FF;
-             font-size : 1em;
-          line-height : 1.6em;
-           font-weight : bold;
-            font-family :幼圆;
-             white-space: pre;
-           }
-     a:link  {color : #6d2542;
-              text-decoration : none;
-             }
-     a:visited {color : #999999;
-               text-decoration : none;
-               }
-     a:hover {color : #999999;
-              text-decoration : underline;
-              }
-     a:active {color : #999999;
-               text-decoration : none;
-              } 
-  </style>
-  </head>
 
-  <body >
-<p>< img src="图片/标题.png" alt="标题" height="120" align="right"/>
-<p class="biaoti">JennyYuan
-<p id="date">< a href=" ">2008年9月12日</ a></p >
-<p><hr align="right" width="45%" >
-<p id="content">
-     把掌声留给坚守得住承诺的人.
-     毕竟,为了承诺一直守侯.
-     多辛苦,多执着,多浪漫.
+        .box {
+            color: rgb(6, 173, 151);
+            width: 450px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+            font-family: 'Century Gothic', sans-serif;
+        }
 
-     把幸福留给勇于拼搏的人.
-     毕竟,过程艰难却努力.
-     还是坚信自己是主宰命运的人.
+        .box .box-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
 
+        .box h1 {
+            font-size: 50px;
+            letter-spacing: 4px;
+            font-weight: 400;
+        }
 
-     把美好的一切留给真诚的人.
-     毕竟,真诚是一门很难学习的课程.
-     即使受伤仍不改变真诚待人的执着.
+        .box h2 {
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: 300;
 
-     The End在第100天。 
-  </body>
+        }
+
+        .one {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: grey;
+        }
+
+        .one:hover {
+            color: rgb(6, 173, 151);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="name">CXB</h1>
+        <h2>Welcome to my personal website!</h2>
+    </div>
+</body>
+
 </html>
